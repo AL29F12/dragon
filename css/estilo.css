@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+img
+{
+img:center
+}
+/*Estilo flotar*/
+.miniatura
+{
+float:left;
+width:110px;
+height:90px;
+margin:5px;
+opacity:0.4;
+}
+.miniatura:hover
+{
+opacity:1.0;
+width:220px;
+height:180px;
+margin:10px;
+}
+.a:hover
+{
+width:660px;
+height:320px;
+margin:10px;
+}
+.segunda_linea
+{
+clear:both;
+margin-botton:2px;
+}
