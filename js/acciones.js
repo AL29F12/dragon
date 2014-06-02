@@ -1,11 +1,11 @@
 // JavaScript Document
  $(document).ready(function(e) {
  document.addEventListener("deviceready",function(){
-  $('#B_Vibrar').tap(function(){
+  $('.button').tap(function(){
     navigator.notification.vibrate(500);
 	});
 	
-	$('#B_beep').tap(function(){
+	$('.button2').tap(function(){
 	 navigator.notification.beep(1);
    });
    
